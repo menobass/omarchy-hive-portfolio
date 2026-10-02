@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.menobass.hive-portfolio",
+  "name": "Hive Portfolio",
+  "version": "0.2.0",
+  "author": "menobass",
+  "license": "MIT",
+  "description": "Track the balances, Hive Power, voting power and resource credits of any number of Hive accounts from the bar. A tiny avatar rotates through your accounts, flags unclaimed rewards, and pulses (with an optional desktop notification) when voting power is full and mana is being wasted.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Hive Portfolio",
+    "description": "Rotating Hive avatar with voting power in the bar; click for balances, VP, RC and settings.",
+    "category": "Finance",
+    "aliases": ["hive", "hive-portfolio", "hive-vp"],
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
